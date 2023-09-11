@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast Generator</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!-- Navbar code -->
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"><img src="./plane.png" alt="CollabTalk.ai" width="40"
+                                height="35"><b>Collab</b><b style="color: #F55253;">Talk.ai</b>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" class="col ms-auto">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#"
+                                        style="color: #F55253;">Signup</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <main>
+        <img src="./cartoon.png" alt="" srcset="" class="cartoon">
+        <img src="./plane2.png" alt="" srcset="" class="plane2">
+        <img src="./arrow.png" alt="" srcset="" class="arrow">
+        <div id="podcast" class="container">
+            <div class="row" style="display: flex;">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <div class="row row1">
+                        <div class="col-sm-12 col-md-4 img"><img src="./mic.png" alt=""></div>
+                        <div class="col-sm-12 col-md-6 col-lg-8">
+                            <h3 class="col talk">Collab<span style="color: rgb(245, 71, 72);"
+                                    class="talk">Talk.ai</span>
+                            </h3>
+                            <h1 class="get"><span style="color: rgb(245, 71, 72);">Get</span> Started</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="input-group flex-nowrap" style="display: flex;">
+                                <textarea type="text" class="form-control" placeholder="Your Script" rows="8" cols="40"
+                                    name="script" style="background-color: rgb(253, 236, 236);">
+                                </textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row3 my-4">
+                        <div class="col or">OR</div>
+                    </div>
+                    <div class="row row4 my-5" style="display: flex;">
+                        <div class="col-sm-12 col-md-8 rd">
+                            <div class="row" style="display: flex;">
+                                <div class="col-2"></div>
+                                <div class="col-8">
+                                    <div class="input-group flex-nowrap my-3" style="display: flex;">
+                                        <input type="text" class="form-control" placeholder="Your Link" name="link"
+                                            style="background-color: rgb(253, 236, 236);">
+                                    </div>
+                                    <div class="row row3 my-4">
+                                        <div class="col or">OR</div>
+                                    </div>
+                                    <div class="input-group flex-nowrap my-3" style="display: flex;">
+                                        <input type="text" class="form-control" placeholder="Your Topic" name="link"
+                                            style="background-color: rgb(253, 236, 236);">
+                                    </div>
+                                </div>
+                                <div class="col-2"></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 mt-sm-4 mt-md-0">
+                            <div class="row" style="display: flex;">
+                                <div class="col-2"></div>
+                                <div class="col-8">
+                                    <div class="mb-3">
+                                        <label for="minutes" class="form-label">Length of your podcast</label>
+                                        <input type="email" class="form-control" id="minutes" placeholder="minutes"
+                                            name="minutes" style="background-color: rgb(253, 236, 236);">
+                                    </div>
+                                    <div class="col-2" style="padding: 0px 12px;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row my-5 py-4" style="display: flex;">
+                        <div class="col">
+                            <div class="row" style="display: flex;">
+                                <div class="col-sm-12 col-md-6">
+                                    <div class="row" style="display: flex;">
+                                        <div class="col-2"></div>
+                                        <div class="col-8">
+                                            <div class="mb-3">
+                                                <label for="Speaker1" class="form-label">Speaker 1</label>
+                                                <input type="text" class="form-control" id="speaker1" placeholder="Name"
+                                                    name="speaker1" style="background-color: rgb(253, 236, 236);">
+                                            </div>
+                                        </div>
+                                        <div class="col-2"></div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-6">
+                                    <div class="row" style="display: flex;">
+                                        <div class="col-2"></div>
+                                        <div class="col-8">
+                                            <div class="mb-3">
+                                                <label for="Speaker2" class="form-label">Speaker 2</label>
+                                                <input type="text" class="form-control" id="speaker1" placeholder="Name"
+                                                    name="speaker1" style="background-color: rgb(253, 236, 236);">
+                                            </div>
+                                        </div>
+                                        <div class="col-2"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row" style="display: flex;">
+                                <div class="col-sm-12 col-md-6">
+                                    <div class="row" style="display: flex;">
+                                        <div class="col-2"></div>
+                                        <div class="col-8">
+                                            <div class="mb-3">
+                                                <label for="gender1" class="form-label">Voice</label>
+                                                <input type="text" class="form-control" id="speaker1"
+                                                    placeholder="Select..." name="select">
+                                            </div>
+                                        </div>
+                                        <div class="col-2"></div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-6">
+                                    <div class="row" style="display: flex;">
+                                        <div class="col-2"></div>
+                                        <div class="col-8">
+                                            <div class="mb-3">
+                                                <label for="gender1" class="form-label">Voice</label>
+                                                <input type="text" class="form-control" id="speaker1"
+                                                    placeholder="Select..." name="select">
+                                            </div>
+                                        </div>
+                                        <div class="col-2"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row row6" style="display: flex;">
+                        <div class="col">
+                            <div class="row" style="display: flex;">
+                                <div class="col-3"></div>
+                                <div class="col-6">
+                                    <p>Generate Conversational podcasts using your favorite news articles or simply by
+                                        giving a topic. </p>
+                                </div>
+                                <div class="col-3"></div>
+                            </div>
+                            <div class="row my-4 pb-5" style="display: flex;">
+                                <div class="col" style="text-align: center;">
+                                    <a href="./page3.html" target="_blank" class="link-3">Generate</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+    </main>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>
